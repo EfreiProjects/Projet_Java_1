@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<classe id="guerrier">
+		<description>Les guerriers sont des combattants hors pair qui foncent en premiere ligne pour proteger leurs compagnons. Ils frappens sans relache, d'estoc et de taille, jusqu'a ce qu'ils obtiennent la reddition de leurs adversaires, encaissant le plus gros de leurs coups grace a leur armure lourde. Les guerriers se lancent generalement au combat pour l'or, la gloire, le devoir ou tout simplement pour le plaisir.</description>
+		<races>Humain, Nain et Drakeide</races>
+		<attaque>
+			<nom>Frappe foisonnante</nom>
+			<descriptionAttaque>Vous ponctuez vos attaques circulaires par des coups rapides et tranchants qui ont raison de la garde de votre adversaire</descriptionAttaque>
+			<caracteristique>Force</caracteristique>
+			<bonus>0</bonus>
+			<defense>Armure</defense>
+			<nombre>2</nombre>
+			<degat>6</degat>
+			<repetition>-1</repetition>
+		</attaque>
+		<attaque>
+			<nom>Coup sur</nom>
+			<descriptionAttaque>Vous sacrifiez la puissance a la precision</descriptionAttaque>
+			<caracteristique>Force</caracteristique>
+			<bonus>2</bonus>
+			<defense>Armure</defense>
+			<nombre>1</nombre>
+			<degat>6</degat>
+			<repetition>-1</repetition>
+		</attaque>
+		<attaque>
+			<nom>Attaque brutale</nom>
+			<descriptionAttaque>Vous broyez os et armure d'une frappe retentissante</descriptionAttaque>
+			<caracteristique>Force</caracteristique>
+			<bonus>0</bonus>
+			<defense>Armure</defense>
+			<nombre>3</nombre>
+			<degat>6</degat>
+			<repetition>2</repetition>
+		</attaque>
+	</classe>
+	<classe id="rodeur">
+		<description>Les rodeurs sont des combattants vigilants qui parcourent l'horizon pour veiller sur une region, des principes ou sur un mode de vie. Maitres de l'arc et des lames, ils excellent dans l'art des assauts eclairs, qui leur permettent d'eliminer leurs ennemis sans un bruit. Les rodeurs sont sans egaux pour tendre des embuscades et eviter le danger. En tant que rodeur, vous jouissez de sens presque surnaturels et d'une grande empathie avec la nature sauvage. Grace a votre connaissance de cet univers, vous pouvez traquer vos ennemis dans la plupart des environnements.</description>
+		<races>	Humain, Drakeide et Elfe</races>	
+		<attaque>
+			<nom>Frappe jumelle</nom>
+			<descriptionAttaque>Si la premiere attaque n'en vient pas a bout, la seconde s'en chargera peut etre.</descriptionAttaque>
+			<caracteristique>Force</caracteristique>
+			<bonus>0</bonus>
+			<defense>Armure</defense>
+			<nombre>1</nombre>
+			<degat>8</degat>
+			<repetition>-1</repetition>
+		</attaque>
+		<attaque>
+			<nom>Volee bifide</nom>
+			<descriptionAttaque>Vous tirez simultanement deux fleches qui se separent au bout de quelques metres pour plus pour plus de destruction.</descriptionAttaque>
+			<caracteristique>Dexterite</caracteristique>
+			<bonus>1</bonus>
+			<defense>Armure</defense>
+			<nombre>2</nombre>
+			<degat>8</degat>
+			<repetition>3</repetition>
+		</attaque>
+			 <attaque>
+			<nom>Entailles virevoltantes</nom>
+			<descriptionAttaque>Vous attaquez deux fois tout en vous deplacant dans la position la plus avantageuse</descriptionAttaque>
+			<caracteristique>Dexterite</caracteristique>
+			<bonus>3</bonus>
+			<defense>Armure</defense>
+			<nombre>2</nombre>
+			<degat>12</degat>
+			<repetition>1</repetition>
+		</attaque>
+	</classe>
+	<classe id="magicien">
+		<description>Les magiciens sont les heritiers de la magie arcanique. Ils puisent dans la puissance veritable qui impregne le cosmos, etudient des rituels occultes qui permettent d'influencer le temps et l'espace et projettent des boules de flammes qui incinerent les ennemis en masse. Les magiciens manipulent leurs sorts comme les combattants brandissent l'epee. </description>
+		<races>Humain</races>	
+		<attaque>
+			<nom>Boule de feu</nom>
+			<descriptionAttaque>lol</descriptionAttaque>
+			<caracteristique>Force</caracteristique>
+			<bonus>0</bonus>
+			<defense>Armure</defense>
+			<nombre>2</nombre>
+			<degat>6</degat>
+			<repetition>-1</repetition>
+		</attaque>
+		<attaque>
+			<nom>Sphere de force</nom>
+			<descriptionAttaque>Vous lancez une sphere magique vers votre ennemi. Elle se brise au contact de la cible et projette des echardes de force, coupantes comme des rasoirs, qui le dechiquettent.</descriptionAttaque>
+			<caracteristique>Intelligence</caracteristique>
+			<bonus>1</bonus>
+			<defense>Reflexes</defense>
+			<nombre>3</nombre>
+			<degat>8</degat>
+			<repetition>2</repetition>
+		</attaque>
+			<attaque>
+			<nom>Serpent de foudre</nom>
+			<descriptionAttaque>Un eclair bleuatre crepitant s'eleve de votre main et s'abat sur votre adversaire en prenant la forme d'une serpent. </descriptionAttaque>
+			<caracteristique>Intelligence</caracteristique>
+			<bonus>3</bonus>
+			<defense>Reflexes</defense>
+			<nombre>2</nombre>
+			<degat>12</degat>
+			<repetition>1</repetition>
+		</attaque>
+	</classe>
+	<classe id="paladin">
+		<description>Les paladins sont des guerriers indomptables qui mettent leur talent au service d'une grande cause. Ils fondent sur leurs ennemis investis d'une autorite divine, raniment le courage de leurs compagnons et rayonnent d'une esperance inextinguible. Sur le champ de bataille, ils sont transfigures et constituent des modeles exemplaires des preceptes divins.</description>
+		<races>Humain, Nain et Drakeide	</races>	
+		<attaque>
+			<nom>Chatiment dissuasif</nom>
+			<descriptionAttaque>Lorsque vous frappez un adversaire avec votre arme, la force de votre coup le fait fremir et reflechir a deux fois a ses assauts</descriptionAttaque>
+			<caracteristique>charisme</caracteristique>
+			<bonus>1</bonus>
+			<defense>Armure</defense>
+			<nombre>1</nombre>
+			<degat>6</degat>
+			<repetition>-1</repetition>
+		</attaque>
+		<attaque>
+			<nom>Rayonnement divin</nom>
+			<descriptionAttaque>Votre ennemi s'embrase, enveloppe d'un halo de lumiere brulante</descriptionAttaque>
+			<caracteristique>charisme</caracteristique>
+			<bonus>0</bonus>
+			<defense>armure</defense>
+			<nombre>3</nombre>
+			<degat>8</degat>
+			<repetition>2</repetition>
+		</attaque>
+		<attaque>
+			<nom>Imposition des mains</nom>
+			<descriptionAttaque>Le contact de vos mains sanctifiees inflige instantanement les blessures.</descriptionAttaque>
+			<caracteristique>intelligence</caracteristique>
+			<bonus>3</bonus>
+			<defense>Reflexes</defense>
+			<nombre>1</nombre>
+			<degat>12</degat>
+			<repetition>1</repetition>
+		</attaque>
+	</classe>
+</document>

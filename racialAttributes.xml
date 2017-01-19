@@ -1,0 +1,38 @@
+<document>
+	<race id="humain">
+		<taille>M</taille>
+		<force>0</force>
+		<constitution>0</constitution>
+		<dexterite>0</dexterite>
+		<intelligence>0</intelligence>
+		<sagesse>0</sagesse>race
+		<charisme>0</charisme>
+	</race>
+	<race id="elfe">
+		<taille>M</taille>
+		<force>-1</force>
+		<constitution>-4</constitution>
+		<dexterite>2</dexterite>
+		<intelligence>+1</intelligence>
+		<sagesse>1</sagesse>
+		<charisme>1</charisme>
+	</race>
+	<race id="nain">
+		<taille>P</taille>
+		<force>1</force>
+		<constitution>4</constitution>
+		<dexterite>-1</dexterite>
+		<intelligence>-1</intelligence>
+		<sagesse>-1</sagesse>
+		<charisme>-1</charisme>
+	</race>
+	<race id="drakeide">
+		<taille>G</taille>
+		<force>4</force>
+		<constitution>+1</constitution>
+		<dexterite>-1</dexterite>
+		<intelligence>-1</intelligence>
+		<sagesse>-1</sagesse>
+		<charisme>-1</charisme>
+	</race>
+</document>
